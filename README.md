@@ -20,13 +20,6 @@ A unique and immersive personal portfolio website that simulates a complete desk
 - **Glass Morphism**: Modern glass-like effects with backdrop blur filters
 - **Loading Screens**: Professional boot sequence and loading animations
 
-### ⌨️ Keyboard Shortcuts
-- **Ctrl + Tab**: Switch between open windows
-- **Ctrl + W**: Close active window
-- **Ctrl + Space**: Toggle start menu
-- **Ctrl + D**: Show desktop (minimize all windows)
-- **Tab**: Open task view
-- **Esc**: Close overlays and menus
 
 ### 🚀 Taskbar Features
 - **Start Menu**: Quick access to all portfolio sections
