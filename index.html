@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Desktop Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-YqlZyvQFKA1F1wL8zY9QIm9YYjE1fQo2C6C8ZT0g6ZdBwmTR5B0lYg8GLmEN7C0PknXYPIp0tNyv9Dqk5jCE/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="power-on-screen">
+        <div class="power-button-container">
+            <div class="power-button">
+                <div class="power-icon">⏻</div>
+            </div>
+            <div class="power-prompt">Press to start</div>
+        </div>
+        
+        <div class="boot-sequence" style="display: none;">
+            <div class="bios-text">
+                <div class="bios-line">>> Booting Eshwar Portfolio OS</div>
+<div class="bios-line">>> Establishing identity signature...</div>
+<div class="bios-line">>> Neural cache warm-up: Completed</div>
+<div class="bios-line">>> CPU Model: Adaptive Thought Engine</div>
+<div class="bios-line">>> System Online!</div>
+<div class="bios-line"></div>
+
+            </div>
+            <div class="screen-flicker"></div>
+        </div>
+    </div>
+
+    <div class="loading-screen" style="display: none;">
+        <div class="windows-boot">
+            <div class="windows-logo">
+                <div class="logo-squares">
+                    <div class="square red"></div>
+                    <div class="square green"></div>
+                    <div class="square blue"></div>
+                    <div class="square yellow"></div>
+                </div>
+            </div>
+            
+            <div class="windows-brand">
+                <span class="brand-text">Eshwar Portfolio OS</span>
+                <span class="brand-version">Version 2025.1</span>
+            </div>
+            
+            <div class="loading-spinner">
+                <div class="spinner-dots">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+            
+            <div class="loading-status">
+                <div class="status-text"></div>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                © 2025 Eshwar OS. Built with modern web technologies and prompt engineering.
+            </div>
+        </div>
+    </div>
+
+    <div class="desktop">
+        <audio id="backgroundMusic" loop preload="auto">
+        </audio>
+        
+        <div class="audio-controls">
+            <button id="musicToggle" class="audio-btn" title="Toggle Background Music">
+                <span class="music-icon">🎵</span>
+            </button>
+            <div class="volume-control">
+                <input type="range" id="volumeSlider" min="0" max="100" value="100" class="volume-slider">
+            </div>
+        </div>
+
+        <div class="desktop-background">
+            <div class="particles-container">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="windows-container">
+            <div class="desktop-icons">
+                <div class="desktop-icon" data-file="about">
+                    <div class="icon-image">
+                        <img src="icons/user.svg" alt="About Me">
+                    </div>
+                    <div class="icon-label">About Me.txt</div>
+                </div>
+                
+                <div class="desktop-icon" data-file="resume">
+                    <div class="icon-image">
+                        <img src="icons/document.svg" alt="Resume">
+                    </div>
+                    <div class="icon-label">Resume.pdf</div>
+                </div>
+                
+                <div class="desktop-icon" data-file="projects">
+                    <div class="icon-image">
+                        <img src="icons/folder.svg" alt="Projects">
+                    </div>
+                    <div class="icon-label">Projects</div>
+                </div>
+                
+                <div class="desktop-icon" data-file="skills">
+                    <div class="icon-image">
+                        <img src="icons/code.svg" alt="Skills">
+                    </div>
+                    <div class="icon-label">Skills.exe</div>
+                </div>
+                
+                <div class="desktop-icon" data-file="contact">
+                    <div class="icon-image">
+                        <img src="icons/mail.svg" alt="Contact">
+                    </div>
+                    <div class="icon-label">Contact.txt</div>
+                </div>
+                
+                <div class="desktop-icon" data-file="social">
+                    <div class="icon-image">
+                        <img src="icons/network.svg" alt="Social Media">
+                    </div>
+                    <div class="icon-label">Social Links</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="taskbar">
+            <div class="start-button">
+                <span class="start-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M3 3h8v8H3V3zm10 0h8v8h-8V3zM3 13h8v8H3v-8zm10 0h8v8h-8v-8z"/>
+                    </svg>
+                </span>
+            </div>
+            
+            <div class="search-box">
+                <div class="search-icon">🔍</div>
+                <input type="text" placeholder="Type here to search" class="search-input">
+            </div>
+            
+            <div class="taskbar-items"></div>
+            
+            <div class="system-tray">
+                <div class="hidden-icons-chevron" title="Show hidden icons">^</div>
+                <div class="tray-icons">
+                    <span class="tray-icon" title="Security">🛡️</span>
+                    <span class="tray-icon" title="Volume">🔊</span>
+                    <span class="tray-icon" title="Network">📶</span>
+                    <span class="tray-icon" title="Battery">🔋</span>
+                </div>
+                <div class="notification-button" title="Notifications">
+                    <div class="notification-icon">🔔</div>
+                </div>
+                <div class="clock">
+                    <div class="time"></div>
+                    <div class="date"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="start-menu">
+            <div class="start-menu-header">
+                <div class="user-profile">
+                    <div class="profile-pic">🙋</div>
+                    <div class="user-name">Welcome!</div>
+                </div>
+            </div>
+            <div class="start-menu-content">
+                <div class="start-menu-item" data-action="about">About Me</div>
+                <div class="start-menu-item" data-action="resume">Resume</div>
+                <div class="start-menu-item" data-action="projects">Projects</div>
+                <div class="start-menu-item" data-action="skills">Skills</div>
+                <div class="start-menu-item" data-action="contact">Contact</div>
+                <div class="start-menu-item" data-action="social">Social Links</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
