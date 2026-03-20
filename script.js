@@ -1292,32 +1292,32 @@ class DesktopPortfolio {
     }
     
     getAboutContent() {
-        return `
-            <div class="content-section">
-                <h2>About Me</h2>
-                <p>Hi, I'm Eshwar Chandra — a Computer Science and Engineering student currently pursuing B.Tech at IIT Indore. I enjoy building intelligent systems, solving algorithmic challenges, and working on practical applications that merge software, AI, and real-world data.</p>
-                
-                <h3>Background</h3>
-                <p>I have hands-on experience in competitive programming, computer vision pipelines, and deep learning-based representation learning. I've worked on pose estimation, 3D object understanding, and OCR systems capable of handling both printed and handwritten text. I actively participate in coding contests and continuously refine my problem-solving and system design skills.</p>
-                
-                <h3>What I Work With</h3>
-                <ul>
-                    <li>Programming: C/C++, Python, JavaScript</li>
-                    <li>Machine Learning & Vision: PyTorch, OpenCV, DINO, YOLO, ViT, BERT</li>
-                    <li>Backend & Systems: Node.js, Express, Flask, FastAPI</li>
-                    <li>Databases & Tools: MySQL, Git</li>
-                </ul>
-                
-                <h3>Competitive Programming</h3>
-                <p>Currently improving my Codeforces rating(1500+) and grinding leetcode. I enjoy algorithmic puzzles, optimization problems, and building elegant solutions through structured reasoning.</p>
-                
-                <h3>Current Interests</h3>
-                <p>I'm fascinated by how machine perception works — how models understand visual and textual information and convert it into meaning. I like working on end-to-end systems that feel tangible, from data pipelines to final real-time deployment.</p>
-                
-                
-            </div>
-        `;
-    }
+    return `
+        <div class="content-section">
+            <h2>About Me</h2>
+            <p>Hi, I'm Eshwar Chandra — a B.Tech student in Computer Science and Engineering at IIT Indore. I enjoy building intelligent software systems that combine strong problem-solving, practical engineering, and modern AI to solve real-world problems.</p>
+            
+            <h3>Background</h3>
+            <p>My work spans backend development, machine learning, computer vision, and generative AI. I’ve built projects involving academic study platforms, vision-language calorie estimation, 6D pose estimation, and speech-based AI assistants. I like working on end-to-end systems — from designing APIs and data workflows to integrating AI models into usable products.</p>
+            
+            <h3>What I Work With</h3>
+            <ul>
+                <li>Programming: C++, Python, JavaScript, TypeScript, SQL</li>
+                <li>Frameworks & Tools: React, Node.js, FastAPI, PyTorch, OpenCV, NumPy, MySQL, Git</li>
+                <li>Areas of Interest: Machine Learning, Computer Vision, Generative AI, REST APIs, DBMS</li>
+            </ul>
+            
+            <h3>Competitive Programming</h3>
+            <p>I’m deeply interested in algorithmic problem-solving and competitive programming. I’ve reached Expert on Codeforces, solved 1000+ problems on LeetCode, and consistently practice DSA to strengthen both speed and depth in problem solving.</p>
+            
+            <h3>Achievements</h3>
+            <p>I ranked 1st among 450+ students in my first year at IIT Indore and was awarded a Branch Change opportunity. I also secured 99.91 percentile in JEE Main 2024, and I’m always looking to push myself through challenging technical work and competitions.</p>
+            
+            <h3>Current Interests</h3>
+            <p>I’m especially interested in building intelligent systems that can understand language, images, and structured data in useful ways. Whether it’s AI-powered learning tools, multi-agent pipelines, or vision-based reasoning systems, I enjoy creating technology that is both technically strong and practically impactful.</p>
+        </div>
+    `;
+}
     
     
     getResumeContent() {
@@ -1326,7 +1326,7 @@ class DesktopPortfolio {
                 <h2>Resume</h2>
                 <div class="resume-iframe-container" style="width: 100%; height: 700px; border-radius: 8px; overflow: hidden;">
                     <iframe 
-                        src="https://drive.google.com/file/d/1f4CkJs9WGz7cxXzvEKXgttrKRJ7vWfoQ/preview"
+                        src="https://drive.google.com/file/d/12U1drMl9ER3CV8Wn3cSYyiWuTuabop70/preview"
                         style="width: 100%; height: 100%; border: none;"
                         allow="autoplay">
                     </iframe>
@@ -1337,93 +1337,88 @@ class DesktopPortfolio {
     
     
     getProjectsContent() {
-        return `
-            <div class="content-section">
-                <h2>Projects</h2>
-                <p>A selection of the work I've built, researched, or shipped — ranging from AI-driven perception systems to backend infrastructure.</p>
-                
-                <div class="projects-grid">
-    
-                    <div class="project-card">
-                    <h4>IITIshop</h4>
-                    <p>E-Commerce platform built for IIT Indore students featuring product listing, checkout flow, role-based dashboards, order tracking, and secure authentication.</p>
+    return `
+        <div class="content-section">
+            <h2>Projects</h2>
+            <p>A selection of projects and research work spanning generative AI, backend systems, computer vision, multi-agent workflows, and real-world intelligent applications.</p>
+            
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h4>Learnix AI</h4>
+                    <p>AI-powered academic study platform built to support personalized learning workflows through chatbot assistance, summarization, flashcard generation, and quiz creation. Worked on backend APIs, prompt pipelines, and frontend modules for a smooth end-to-end study experience.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">JavaScript/Typescript</span>
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">JWT Auth</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Generative AI</span>
+                        <span class="tech-tag">REST APIs</span>
+                        <span class="tech-tag">JavaScript</span>
                     </div>
                 </div>
 
-                    <div class="project-card">
-                        <h4>ZEUS6D</h4>
-                        <p>Training-free zero-shot 6D pose estimation for unseen objects using learned global and local features. Evaluates symmetry, visibility, and transforms CAD models to image space.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">PyTorch</span>
-                            <span class="tech-tag">Open3D</span>
-                            <span class="tech-tag">ViT / DINO</span>
-                            <span class="tech-tag">RANSAC + ICP + SVD</span>
-                        </div>
-                    </div>
-    
-                    <div class="project-card">
-                        <h4>NutriSnap</h4>
-                        <p>AI-powered calorie estimation from food images using Vision-Language Models. Performs classification, portion estimation, and nutrition lookup.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Computer Vision</span>
-                            <span class="tech-tag">VLM</span>
-                            <span class="tech-tag">RAG Pipelines</span>
-                            <span class="tech-tag">PyTorch</span>
-                        </div>
-                    </div>
-    
-                    <div class="project-card">
-                        <h4>PolyOCR</h4>
-                        <p>Multilingual OCR pipeline supporting both printed and handwritten text with dynamic script detection and image noise handling.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">OCR</span>
-                            <span class="tech-tag">OpenCV</span>
-                            <span class="tech-tag">PaddleOCR</span>
-                            <span class="tech-tag">Tesseract</span>
-                        </div>
-                    </div>
-    
-                    <div class="project-card">
-                        <h4>CAD-to-Image Alignment System</h4>
-                        <p>Rendered CAD models from multiple camera perspectives using pyrender & trimesh, then compared pixel-level cosine similarity for best overlay alignment.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">pyrender</span>
-                            <span class="tech-tag">trimesh</span>
-                            <span class="tech-tag">Pose Estimation</span>
-                            <span class="tech-tag">Feature Matching</span>
-                        </div>
-                    </div>
-    
-                    <div class="project-card">
-                        <h4>Agents of Justice</h4>
-                        <p>Courtroom simulation with multiple agent roles interacting via narrative sequences and logic-driven state transitions.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">LLM</span>
-                            <span class="tech-tag">Agents</span>
-                        </div>
-                    </div>
-                    
-                    <div class="project-card">
-                    <h4>MNIST Digit Classifier</h4>
-                    <p>Handwritten digit recognition model trained on the MNIST dataset using CNNs, optimized with batch normalization and dropout for improved generalization.</p>
+                <div class="project-card">
+                    <h4>IITIshop</h4>
+                    <p>E-commerce platform designed for IIT Indore students with support for product listings, order tracking, dashboards, and inventory workflows. Contributed to database design, optimized SQL operations, and responsive user-facing modules.</p>
                     <div class="project-tech">
-                        <span class="tech-tag">PyTorch</span>
-                        <span class="tech-tag">CNN</span>
-                        <span class="tech-tag">Deep Learning</span>
-                        <span class="tech-tag">MNIST</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">JavaScript/TypeScript</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">DBMS</span>
                     </div>
                 </div>
-    
+
+                <div class="project-card">
+                    <h4>NutriSnap</h4>
+                    <p>Vision-language calorie estimation system that analyzes meal images to infer ingredients, estimate portions, and retrieve grounded nutrition data. Built with a multi-agent pipeline, retrieval components, and confidence-aware prediction logic for more reliable results.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">Vision-Language Models</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">Multi-Agent Systems</span>
+                        <span class="tech-tag">Python</span>
+                    </div>
                 </div>
+
+                <div class="project-card">
+                    <h4>ZEUS 6D</h4>
+                    <p>Zero-shot 6D pose estimation pipeline for unseen objects using CAD models and RGB/RGB-D inputs. Focused on robust object localization, feature fusion, and geometric alignment for accurate pose estimation and refinement.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">Pose Estimation</span>
+                        <span class="tech-tag">Geometric Alignment</span>
+                        <span class="tech-tag">RGB-D</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h4>ASR-Based AI Assistant</h4>
+                    <p>Built during my research internship at Drishti CPS, IIT Indore, this project benchmarks speech-to-text and LLM pipelines for an audio-based assistant. Developed FastAPI backend endpoints, audio ingestion workflows, transcription pipelines, and an end-to-end working prototype.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Speech-to-Text</span>
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h4>Agents of Justice</h4>
+                    <p>Multi-agent courtroom simulation where different AI-driven roles interact through structured reasoning, dialogue, and state-based narrative progression. Designed to explore agent coordination, role behavior, and decision-driven storytelling.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">LLMs</span>
+                        <span class="tech-tag">Agents</span>
+                        <span class="tech-tag">Simulation</span>
+                        <span class="tech-tag">Prompt Engineering</span>
+                    </div>
+                </div>
+
             </div>
-        `;
-    }
+        </div>
+    `;
+}
     
     
     getSkillsContent() {
@@ -1524,24 +1519,6 @@ class DesktopPortfolio {
                             <p>eshwarchandra0307@gmail.com</p>
                         </div>
                     </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">📱</div>
-                        <div class="contact-details">
-                            <h4>Phone</h4>
-                            <p>+7618776667</p>
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">💼</div>
-                        <div class="contact-details">
-                            <h4>LinkedIn</h4>
-                            <p>linkedin.com/in/eshwar-chandra-reddy</p>
-                        </div>
-                    </div>
-                </div>
                 
                 <h3>Let's Connect!</h3>
                 <p>I'm always open to discussing new opportunities, interesting projects, or potential collaborations. Whether you're a fellow developer, a potential employer, or someone with an exciting project idea, I'd love to connect!</p>
@@ -1552,94 +1529,119 @@ class DesktopPortfolio {
     }
     
     getSocialContent() {
-        return `
-            <div class="content-section">
-                <h2>Social Media & Links</h2>
-                <p>Connect with me on any platform below:</p>
+    return `
+        <div class="content-section">
+            <h2>Social Media & Links</h2>
+            <p>Connect with me across platforms — from projects and coding profiles to professional updates and developer communities.</p>
+            
+            <div class="social-links">
                 
-                <div class="social-links">
-                    
-                    <a href="https://github.com/pitcher69" class="social-link" target="_blank">
-                        <div class="social-icon github">💻</div>
-                        <div class="social-details">
-                            <h4>GitHub</h4>
-                            <p>github.com/pitcher69</p>
-                            <small>Code, projects, experiments</small>
-                        </div>
-                    </a>
-    
-                    <a href="https://x.com/pitcherpunchst" class="social-link" target="_blank">
-                        <div class="social-icon x">🐦</div>
-                        <div class="social-details">
-                            <h4>X (Twitter)</h4>
-                            <p>x.com/pitcherpunchst</p>
-                            <small>Tech thoughts, sarcasm, random sparks</small>
-                        </div>
-                    </a>
-    
-                    <a href="https://www.linkedin.com/in/eshwar-chandra-reddy" class="social-link" target="_blank">
-                        <div class="social-icon linkedin">💼</div>
-                        <div class="social-details">
-                            <h4>LinkedIn</h4>
-                            <p>linkedin.com/in/eshwar-chandra-reddy</p>
-                            <small>Professional updates</small>
-                        </div>
-                    </a>
-    
-                    <a href="https://www.kaggle.com/eshwaronkaggle" class="social-link" target="_blank">
-                        <div class="social-icon kaggle">📊</div>
-                        <div class="social-details">
-                            <h4>Kaggle</h4>
-                            <p>kaggle.com/eshwaronkaggle</p>
-                            <small>ML competitions, notebooks & datasets</small>
-                        </div>
-                    </a>
-    
-                    <a href="https://www.reddit.com/user/pitcherpunchst" class="social-link" target="_blank">
-                        <div class="social-icon reddit">👽</div>
-                        <div class="social-details">
-                            <h4>Reddit</h4>
-                            <p>reddit.com/u/pitcherpunchst</p>
-                            <small>Discussions, ideas, random internet archeology</small>
-                        </div>
-                    </a>
-    
-                    <a href="https://discord.com/users/526344861239214090" class="social-link" target="_blank">
-                        <div class="social-icon discord">💬</div>
-                        <div class="social-details">
-                            <h4>Discord</h4>
-                            <p>@pitcher69</p>
-                            <small>Chat, collab, vc, debug together</small>
-                        </div>
-                    </a>
+                <a href="https://github.com/pitcher69" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon github">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>GitHub</h4>
+                        <p>github.com/pitcher69</p>
+                        <small>Code, projects, experiments</small>
+                    </div>
+                </a>
 
-                    <a href="https://www.twitch.tv/pitcherpunchst" class="social-link" target="_blank">
-                        <div class="social-icon discord">🎧</div>
-                        <div class="social-details">
-                            <h4>Twitch</h4>
-                            <p>twitch.tv/pitcherpunchst</p>
-                            <small>Streams, coding, sometimes chaos</small>
-                        </div>
-                    </a>
-    
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=eshwarchandra0307@gmail.com" target="_blank" rel="noopener noreferrer" class="social-link">
+                <a href="https://www.linkedin.com/in/eshwar-chandra-reddy" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon linkedin">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>LinkedIn</h4>
+                        <p>linkedin.com/in/eshwar-chandra-reddy</p>
+                        <small>Professional updates and experience</small>
+                    </div>
+                </a>
 
-                        <div class="social-icon email">📧</div>
-                        <div class="social-details">
-                            <h4>Email</h4>
-                            <p>eshwarchandra0307@gmail.com</p>
-                            <small>Reach out directly</small>
-                        </div>
-                    </a>
-    
-                </div>
-    
-                <h3>Online Presence</h3>
-                <p>I build, break, and learn in public. Whether it's open-source work on GitHub, model experiments on Kaggle, or tech discussions on Reddit and Discord — I'm always exploring.</p>
+                <a href="https://x.com/pitcherpunchst" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon x">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/x.svg" alt="X logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>X (Twitter)</h4>
+                        <p>x.com/pitcherpunchst</p>
+                        <small>Thoughts, tech, and occasional chaos</small>
+                    </div>
+                </a>
+
+                <a href="https://codeforces.com/profile/pitcher69" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon codeforces">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codeforces.svg" alt="Codeforces logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>Codeforces</h4>
+                        <p>codeforces.com/profile/pitcher69</p>
+                        <small>Competitive programming and contests</small>
+                    </div>
+                </a>
+
+                <a href="https://leetcode.com/u/pitcherpunchst" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon leetcode">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/leetcode.svg" alt="LeetCode logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>LeetCode</h4>
+                        <p>leetcode.com/u/pitcherpunchst</p>
+                        <small>DSA practice and interview prep</small>
+                    </div>
+                </a>
+
+                <a href="https://www.reddit.com/user/pitcherpunchst" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon reddit">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/reddit.svg" alt="Reddit logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>Reddit</h4>
+                        <p>reddit.com/u/pitcherpunchst</p>
+                        <small>Discussions, ideas, and internet rabbit holes</small>
+                    </div>
+                </a>
+
+                <a href="https://discord.com/users/526344861239214090" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon discord">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/discord.svg" alt="Discord logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>Discord</h4>
+                        <p>@pitcher69</p>
+                        <small>Collab, chat, and debugging sessions</small>
+                    </div>
+                </a>
+
+                <a href="https://www.twitch.tv/pitcherpunchst" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon twitch">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/twitch.svg" alt="Twitch logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>Twitch</h4>
+                        <p>twitch.tv/pitcherpunchst</p>
+                        <small>Streams, coding, and occasional chaos</small>
+                    </div>
+                </a>
+
+                <a href="mailto:eshwarchandra0307@gmail.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon email">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/gmail.svg" alt="Email logo" />
+                    </div>
+                    <div class="social-details">
+                        <h4>Email</h4>
+                        <p>eshwarchandra0307@gmail.com</p>
+                        <small>Reach out directly</small>
+                    </div>
+                </a>
+
             </div>
-        `;
-    }
 
+            <h3>Online Presence</h3>
+            <p>I enjoy building in public, sharing what I learn, and staying active across coding, AI, and developer communities through projects, competitive programming, experiments, and conversations with other builders.</p>
+        </div>
+    `;
+}
                    
     
     createWindow(windowData) {
