@@ -1326,7 +1326,7 @@ class DesktopPortfolio {
                 <h2>Resume</h2>
                 <div class="resume-iframe-container" style="width: 100%; height: 700px; border-radius: 8px; overflow: hidden;">
                     <iframe 
-                        src="https://drive.google.com/file/d/12U1drMl9ER3CV8Wn3cSYyiWuTuabop70/preview"
+                        src="https://drive.google.com/file/d/1bxI33WKZ3SirdME8Usahq8W-JEIDBlnN/preview"
                         style="width: 100%; height: 100%; border: none;"
                         allow="autoplay">
                     </iframe>
